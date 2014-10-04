@@ -1,0 +1,7 @@
+DEPENDENCIES
+  chef-koans
+    path: .
+    metadata: true
+
+GRAPH
+  chef-koans (0.1.0)
