@@ -8,6 +8,4 @@ install:
   - chef exec berks install
   - chef exec bundle install
 script:
-  - chef exec foodcritic -f any .
-  - chef exec rspec --color --format progress
-  - chef exec rubocop
+  - chef exec bundle exec rake test
