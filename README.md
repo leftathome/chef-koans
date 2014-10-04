@@ -36,9 +36,13 @@ This is the test cycle you're going to use as you walk the path to enlightenment
 time, it will take a few minutes.
 
 ### Did it work?
+
 #### Yes, the VM started and all tests passed!
+
  * Please check out branch `lesson-1`.
+
 #### No, I encountered a problem.
+
  * It's okay, lots of software doesn't work all the time.  Here are some things to try:
    *  Try it again.  It doesn't seem like it should work, but it can't hurt.
    *  Google the error message - whatever is marked in red, or the first line of text that sounds ominous, like `NameError: failed to reticulate splines` or `frob() returned 1, expected 0`.
