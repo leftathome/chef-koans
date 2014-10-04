@@ -1,8 +1,12 @@
 rvm:
   - 2.0.0
+env:
+  - CHEFDK_VERSION=0.3.0-1
 before_script:
-  - bundle exec berks install
+  - wget http://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_${CHEFDK_VERSION}_amd64.deb
+  - sudo dpkg -i ./chefdk_${CHEFDK_VERSION}_amd64.deb
 script:
-  - bundle exec foodcritic -f any .
-  - bundle exec rspec --color --format progress
-  - bundle exec rubocop
+  - chef exec berks install
+  - chef exec foodcritic -f any .
+  - chef exec rspec --color --format progress
+  - chef exec rubocop
