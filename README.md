@@ -39,7 +39,7 @@ time, it will take a few minutes.
 
 #### Yes, the VM started and all tests passed!
 
- * Please check out branch `lesson-1`.
+ * Please check out branch `step-1`.
 
 #### No, I encountered a problem.
 
