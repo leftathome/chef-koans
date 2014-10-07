@@ -24,7 +24,7 @@ task :lint => :foodcritic
 # currently we don't run Kitchen in hosted CI.
 # maybe we'll fix that later?
 #
-unless ENV['CI'] do
+unless ENV['CI'] 
   begin
     require 'kitchen/rake_tasks'
     Kitchen::RakeTasks.new
