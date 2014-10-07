@@ -9,4 +9,6 @@ bin/*
 .kitchen.local.yml
 
 Gemfile.lock
+.gemfile.ci.lock
 Berksfile.lock
+.*.sw*
