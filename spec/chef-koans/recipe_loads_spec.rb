@@ -1,13 +1,14 @@
 require 'spec_helper'
 
-describe 'chef-koans::default on ubuntu-14.04' do
+describe 'chef-koans::default' do
   let(:cb_on_ubuntu1404) do
     ChefSpec::Runner.new(
       :platform => 'ubuntu',
       :version => '14.04'
-      ).converge('chef-koans::default')
+      ).converge(described_recipe)
   end
-  it "does nothing" do
-    expect(:cb_on_unbuntu1404).to do_nothing
+  it "does not raise errors" do
+        expect(Chef::Formatters::ErrorMapper).to_not receive(:file_load_failed)
+	expect { cb_on_ubuntu1404 }.to_not raise_error
   end
 end
