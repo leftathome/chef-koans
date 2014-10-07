@@ -1,11 +1,11 @@
 rvm:
   - 2.0.0
 env:
-  - CHEFDK_VERSION=0.3.0-1
+  - CHEFDK_VERSION=0.3.0-1 BUNDLE_GEMFILE=.gemfile.ci
 install:
   - wget http://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_${CHEFDK_VERSION}_amd64.deb
   - sudo dpkg -i ./chefdk_${CHEFDK_VERSION}_amd64.deb
   - chef exec berks install
-  - chef exec bundle install --gemfile=.gemfile.ci
+  - chef exec bundle install
 script:
   - chef exec bundle exec rake test
