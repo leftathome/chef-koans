@@ -39,7 +39,9 @@ time, it will take a few minutes.
 
 #### Yes, the VM started and all tests passed!
 
- * Please check out branch `step-1`.
+ * Please check out branch `step-1`.  You can use the command `git
+   checkout -b step-1` followed by `git pull origin step-1` from
+   within the chef-koans repository to do this.
 
 #### No, I encountered a problem.
 
