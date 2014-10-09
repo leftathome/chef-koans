@@ -51,8 +51,8 @@ Run `kitchen test` when you are ready.
  * To just re-run tests, run `kitchen verify`.
  * Are you still having problems?
    *  Google the error message - whatever is marked in red, or the first line of text that sounds ominous, like `NameError: failed to reticulate splines` or `frob() returned 1, expected 0`.
-   *  Go to GitHub and search the issues (http://github.com/leftathome/chef-koans/issues/new)[here]to see if anyone's come across your problem before.  Maybe someone has figured out your problem and posted the solution, or maybe it's the code's fault and you need to `git pull` to see the fix.
-   *  Open a (http://github.com/leftathome/chef-koans/issues/new)[GitHub issue] and we'll try to fix it.
+   *  Go to GitHub and search the issues [here](http://github.com/leftathome/chef-koans/issues) to see if anyone's come across your problem before.  Maybe someone has figured out your problem and posted the solution, or maybe it's the code's fault and you need to `git pull` to see the fix.
+   *  Open a [GitHub issue](http://github.com/leftathome/chef-koans/issues/new) and we'll try to fix it.
 
 [Resources]: http://docs.getchef.com/chef/resources.html
 [Default recipe]: ./recipes/default.rb
