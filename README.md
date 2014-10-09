@@ -48,7 +48,7 @@ time, it will take a few minutes.
  * It's okay, lots of software doesn't work all the time.  Here are some things to try:
    *  Try it again.  It doesn't seem like it should work, but it can't hurt.
    *  Google the error message - whatever is marked in red, or the first line of text that sounds ominous, like `NameError: failed to reticulate splines` or `frob() returned 1, expected 0`.
-   *  Go to GitHub and search the issues [http://github.com/leftathome/chef-koans/issues/new](here) to see if anyone's come across your problem before.  Maybe someone has figured out your problem and posted the solution, or maybe it's the code's fault and you need to `git pull` to see the fix.
+   *  Go to GitHub and search the issues [http://github.com/leftathome/chef-koans/issues](here) to see if anyone's come across your problem before.  Maybe someone has figured out your problem and posted the solution, or maybe it's the code's fault and you need to `git pull` to see the fix.
    *  Open a [http://github.com/leftathome/chef-koans/issues/new](GitHub issue) and we'll try to fix it.
 
 Getting Involved
