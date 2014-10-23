@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe 'chef-koans::default' do
   let(:cb_on_ubuntu1404) do
-    ChefSpec::Runner.new(
-      :platform => 'ubuntu',
-      :version => '14.04'
+    ChefSpec::SoloRunner.new(
+      platform: 'ubuntu',
+      version: '14.04'
     ).converge(described_recipe)
   end
   it 'does not raise errors' do
