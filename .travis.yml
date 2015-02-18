@@ -1,7 +1,7 @@
 rvm:
   - 2.0.0
 env:
-  - CHEFDK_VERSION=0.3.0-1 BUNDLE_GEMFILE=.gemfile.ci
+  - CHEFDK_VERSION=0.4.0-1 BUNDLE_GEMFILE=.gemfile.ci
 install:
   - wget -q http://opscode-omnibus-packages.s3.amazonaws.com/ubuntu/12.04/x86_64/chefdk_${CHEFDK_VERSION}_amd64.deb
   - sudo dpkg -i ./chefdk_${CHEFDK_VERSION}_amd64.deb
